@@ -1,0 +1,110 @@
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: var(--primary-white);
+  }
+  
+  .form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .form img {
+	width: 350px;
+  }
+  
+  .form input {
+	border: none;
+	background: var(--secondary-white);
+	padding: 0.5rem 0.7rem;
+	outline: none;
+	font-size: 0.9rem;
+	margin-top: 20px;
+  }
+  
+  .form a.login {
+	background: var(--blue);
+	border: none;
+	color: var(--primary-white);
+	padding: 8px 16px;
+	margin-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  .createAccount {
+	color: var(--blue);
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 0.8rem;
+  }
+
+  .login {
+	color: var(--blue);
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 0.8rem;
+  }
+
+  .button {
+    background-color: #052049 !important;
+    background: var(--blue);
+    color: var(--primary-white);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px 16px;
+  }
+  
+  .optionsContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+  }
+  
+  .language_select {
+	outline: none;
+	margin-top: 1rem;
+  }
+  
+  /* Media Queries */
+  
+  .wrapper span {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+  
+  .wrapper span a {
+    text-decoration: none;
+    color: var(--blue);
+  }
+  
+  .optionsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .language_select {
+    outline: none;
+    margin-top: 1rem;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 650px) {
+    .wrapper img {
+      width: 250px;
+    }
+  }

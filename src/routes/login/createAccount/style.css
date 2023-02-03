@@ -1,0 +1,69 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper img {
+    width: 350px;
+  }
+  
+  .createAccount {
+    background-color: var(--secondary-white);
+    border: none;
+    color: #333;
+    font-size: 0.9rem;
+    outline: none;
+    padding: 0.5rem 0.7rem;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #052049 !important;
+    background: var(--blue);
+    color: var(--primary-white);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px 16px;
+  }
+  
+  .wrapper span {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+  
+  .wrapper span a {
+    text-decoration: none;
+    color: var(--blue);
+  }
+  
+  .optionsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .language_select {
+    outline: none;
+    margin-top: 1rem;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 650px) {
+    .wrapper img {
+      width: 250px;
+    }
+  }

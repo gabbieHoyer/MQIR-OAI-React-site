@@ -1,0 +1,36 @@
+:root {
+	--primary-text: #444;
+	--success-text: #4bb543;
+	--primary-white: #fafafa;
+	--secondary-white: #e4e4e4;
+	--blue: #0054a6;
+	--green-chat: #00a67e;
+  }
+  
+  html,
+  body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: var(--primary-white);
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: var(--primary-text);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+  
+  #app {
+	height: 100%;
+  }
+  
+  [class^='modal'] [class^='title-bar'] button {
+	border: none;
+
+	
+  }
